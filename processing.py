@@ -55,7 +55,7 @@ def write_to_csv(dict_list, output_path):
 
 if __name__ == "__main__":
     # Get data into list of dictionaries where each row is a dictionary
-    csvpath = './CONAN_MB_EVT1_BOM_20210105.rpt'
+    csvpath = './data/CONAN_MB_EVT1_BOM_20210105.rpt'
     rpt_list = get_list_of_dict_from_rpt(csvpath)
     print(f"The length of the data is: {len(rpt_list)}")
 
