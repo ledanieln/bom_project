@@ -1,3 +1,7 @@
+# Introduction
+
+Please add the `RPT` file to the `data/` folder
+
 # Adding and installing new packages
 
 1. Run `python -m virtualenv venv` to create a virtual environment
